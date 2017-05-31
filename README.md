@@ -21,3 +21,7 @@ Docker image - ElasticSearch with ICU Analysis Plugin installed
 ### Update license
     curl -XPUT 'http://localhost:9200/_xpack/license?acknowledge=true' -H "Content-Type: application/json" -d @license.json
 > license.json include the license key
+
+### Check license
+    curl -v http://localhost:9200/_xpack/license
+    
