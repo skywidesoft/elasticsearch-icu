@@ -1,4 +1,4 @@
-FROM docker.elastic.co/elasticsearch/elasticsearch:5.4.0
+FROM docker.elastic.co/elasticsearch/elasticsearch:5.4.1
 MAINTAINER Clarence Ho <clarence@skywidesoft.com>
 
 RUN /usr/share/elasticsearch/bin/elasticsearch-plugin install analysis-icu
